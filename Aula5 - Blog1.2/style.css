@@ -1,0 +1,174 @@
+html,
+body {
+    min-height: 100%;
+}
+
+body {
+    background-color: #fae6e6;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    /*aplicando cor no cabeçalho*/
+    background-color: #db7070;
+    /*ajustando o comprimento do cabeçalho*/
+    width: 100%;
+    /*ajustando a altura do cabeçalho*/
+    height: 250px;
+    /*ajustando as margens do cabeçalho*/
+    margin: 0 auto;
+    /*ajustando a cor do texto*/
+    color: black;
+    /*ajustando o alinhamento do texto*/
+    text-align: center;
+}
+
+.content {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.footer {
+    /*altura da escrita do rodapé*/
+    line-height: 0 auto;
+    background-color: #db7070;
+    color: black;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    bottom: 0;
+    position: absolute;
+}
+
+.imagem {
+    height: 50px;
+    width: 50px;
+}
+
+.imagemprincipal {
+    height: 400px;
+    width: 600px;
+}
+
+.imagemhar {
+    height: 400px;
+    width: 600px;
+}
+
+.imagemrede {
+    height: 400px;
+    width: 600px;
+}
+
+.imagemsoft {
+    height: 400px;
+    width: 600px;
+}
+
+.imagemgame {
+    height: 400px;
+    width: 600px;
+}
+
+a {
+    /*cria uma borda no seu hiperlink e ainda define uma cor*/
+    outline: 2 px solid #db7070;
+    /* remove o sublinhado do hiperlink*/
+    text-decoration: none;
+}
+
+a:link {
+    /*ajusta a cor do link e mcolor definida por você*/
+    color: #db7070;
+    /*ajusta uma cor de funso do link definida por você*/
+    background-color: black;
+}
+
+a:visited {
+    /*ajusta a cor do link e mcolor definida por você*/
+    color: #db7070;
+    /*ajusta uma cor de funso do link definida por você*/
+    background-color: black;
+}
+
+a:hover {
+    /*ajusta a cor do link quando passo o mouse em color definida por vocÊ*/
+    color: #db7070;
+    /*ajusta uma cor de funso do link definida por você*/
+    background-color: black;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.child{
+    width: 50px;
+    height: 50px;
+    background-color: #ff0000;
+    position: absolute;
+    margin: -25px 0 0 -25px;
+    top: 50%;
+    left: 5%;
+}
+
+.child1 {
+    width: 50px;
+    height: 50px;
+    background-color: #ff8800;
+    position: absolute;
+    margin: -25px 0 0 -25px;
+    top: 50%;
+    left: 20%;
+}
+
+.child2 {
+    width: 50px;
+    height: 50px;
+    background-color: #ffd900;
+    position: absolute;
+    margin: -25px 0 0 -25px;
+    top: 50%;
+    left: 35%;
+}
+
+.child3 {
+    width: 50px;
+    height: 50px;
+    background-color: #33ff00;
+    position: absolute;
+    margin: -25px 0 0 -25px;
+    top: 50%;
+    left: 50%;
+}
+
+.child4 {
+    width: 50px;
+    height: 50px;
+    background-color: #00ff6a;
+    position: absolute;
+    margin: -25px 0 0 -25px;
+    top: 50%;
+    left: 65%;
+}
+.child5 {
+    width: 50px;
+    height: 50px;
+    background-color: #01f7ff;
+    position: absolute;
+    margin: -25px 0 0 -25px;
+    top: 50%;
+    left: 80%;
+}
+.child6 {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(4, 104, 255);
+    position: absolute;
+    margin: -25px 0 0 -25px;
+    top: 50%;
+    left: 95%;
+}

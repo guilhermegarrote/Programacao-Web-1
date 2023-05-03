@@ -1,0 +1,101 @@
+html,
+body {
+    min-height: 100%;
+}
+
+body {
+    background-color: #E6E6FA;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    /*aplicando cor no cabeçalho*/
+    background-color: #9370DB;
+    /*ajustando o comprimento do cabeçalho*/
+    width: 100%;
+    /*ajustando a altura do cabeçalho*/
+    height: 250px;
+    /*ajustando as margens do cabeçalho*/
+    margin: 0 auto;
+    /*ajustando a cor do texto*/
+    color: black;
+    /*ajustando o alinhamento do texto*/
+    text-align: center;
+}
+
+.content {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.footer {
+    /*altura da escrita do rodapé*/
+    line-height: 0 auto;
+    background-color: #9370DB;
+    color: black;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    bottom: 0;
+    position: absolute;
+}
+
+.imagem {
+    height: 50px;
+    width: 50px;
+}
+
+.imagemprincipal {
+    height: 400px;
+    width: 600px;
+}
+
+.imagemhar {
+    height: 400px;
+    width: 600px;
+}
+
+.imagemrede {
+    height: 400px;
+    width: 600px;
+}
+
+.imagemsoft {
+    height: 400px;
+    width: 600px;
+}
+
+.imagemgame {
+    height: 400px;
+    width: 600px;
+}
+
+a {
+    /*cria uma borda no seu hiperlink e ainda define uma cor*/
+    outline: 2 px solid #9370DB;
+    /* remove o sublinhado do hiperlink*/
+    text-decoration: none;
+}
+
+a:link {
+    /*ajusta a cor do link e mcolor definida por você*/
+    color: #9370DB;
+    /*ajusta uma cor de funso do link definida por você*/
+    background-color: black;
+}
+
+a:visited {
+    /*ajusta a cor do link e mcolor definida por você*/
+    color: #9370DB;
+    /*ajusta uma cor de funso do link definida por você*/
+    background-color: black;
+}
+
+a:hover {
+    /*ajusta a cor do link quando passo o mouse em color definida por vocÊ*/
+    color: #9370DB;
+    /*ajusta uma cor de funso do link definida por você*/
+    background-color: black;
+}

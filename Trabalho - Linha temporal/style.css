@@ -1,0 +1,111 @@
+html,
+body {
+    min-height: 100%;
+}
+
+body {
+    background-color: #ffffff;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    background-color: #1E90FF;
+    width: 100%;
+    height: 140px;
+    margin: 0 auto;
+    color: black;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.content {
+    color: rgb(27, 27, 27);
+    font-size: 15px;
+    margin-left: 80px;
+    margin-right: 80px;
+    text-align: justify;
+}
+
+.footer {
+    line-height: 0 auto;
+    background-color: #1E90FF;
+    color: black;
+    text-align: center;
+    width: 100%;
+    height: 80px;
+    margin: 0 auto;
+    bottom: 0;
+    position: relative;
+}
+
+.imagem {
+    height: 100px;
+    width: 180px;
+}
+
+.imagemprincipal {
+    height: 405px;
+    width: 585px;
+}
+
+.imagemcentro {
+    text-align: center;
+}
+
+.imagemtexto {
+    height: 360px;
+    width: 530px;
+}
+
+a {
+    outline: 2 px solid #1E90FF;
+    text-decoration: none;
+}
+
+a:link {
+    color: #1E90FF;
+    background-color: black;
+}
+
+a:visited {
+    color: #1E90FF;
+    background-color: black;
+}
+
+a:hover {
+    color: #db70a5;
+    background-color: black;
+}
+
+.espaco {
+    margin-top: 180px;
+}
+
+.fonte {
+    color: dodgerblue;
+    background-color: white;
+    text-decoration: underline;
+}
+
+.fonte:hover {
+    color: dodgerblue;
+    background-color: white;
+}
+
+.fonte:visited {
+    background-color: white;
+}
+
+#fonte {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+}
+
+.espacofon {
+    margin-right: 50px;
+}
